@@ -94,3 +94,56 @@
     }
 }
 }
+@media only screen and (max-width:411px){
+    body{
+        font-size: 0.7rem;
+        
+    }
+    .paragraph{
+        padding-left: 5px;
+    }
+    .detail div:first-child{
+        width: 50%;
+        
+    }
+    .aboutself h1 {
+        color: white;
+        font-size: medium;
+        font-family: serif;
+    }
+    .social-network a img{
+    width: 17%;
+    /* height: 6%; */
+    padding: 0.5rem;
+    }
+    .social-network1 a img{
+        width: 10%;
+        height: 5%;
+        padding: 0.5rem;
+    }
+    .deatil div:first-child {
+        width: 40%;
+        padding-left: 10px;
+        color: black;
+        -webkit-text-stroke: thin;
+    }
+    .deatil div:last-child {
+        width: 60%;
+        padding-left: 30px;
+        color: black;
+        -webkit-text-stroke: thin;
+    }
+    .header:hover{
+        height: 20%;
+        width: 40%;
+        border: 1px solid red;
+        background-color: rgb(57, 92, 92);
+        color: white;
+        text-align: center;
+        
+    }
+    table,th,tr,td{
+        width: 0%;
+        border: 1px solid black;
+    }
+}
